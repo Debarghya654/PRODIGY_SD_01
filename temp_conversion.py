@@ -50,6 +50,7 @@ def convert_temperature(temp, unit):
         return
 
 def main():
+    print("\033[H\033[2J")
     print("====================================================")
     print("\t\t\t Temperature Conversion \t\t\t")
     print("====================================================")
